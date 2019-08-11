@@ -63,3 +63,5 @@ yarn start
 - [ ] Implementar a possibilidade de ambientes desenvolvimento/homologação/produção
 - [ ] Isolar backend e frontend em containers
 
+## LICENSE
+This project is licensed under The Unlicense and released to the Public Domain. For more information see our LICENSE file.
