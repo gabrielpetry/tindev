@@ -14,16 +14,16 @@ module.exports = {
         { _id: { $nin: loggedDev.dislikes } }
       ]
     })
-
     return res.json(users)
   },
   async store (req, res) {
     const { username } = req.body
 
-    console.log(username)
+    console.log(username, 'Just logged in')
     const userExists = await Dev.findOne({ user: username })
 
     if (userExists) {
+      console.log('User exists, retriving', name)
       return res.json(userExists)
     }
 
@@ -37,6 +37,7 @@ module.exports = {
       name,
       user: username
     })
+    console.log('User doest no exist, creating', name)
 
     return res.json(dev)
   }
