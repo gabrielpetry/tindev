@@ -9,6 +9,7 @@ module.exports = {
     const targetDev = await Dev.findById(devId)
 
     if (!targetDev) {
+      console.log('User does not exist', devId)
       return res.status(400).json({ error: "Dev not exists" })
     }
 
