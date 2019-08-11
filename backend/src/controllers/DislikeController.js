@@ -16,7 +16,7 @@ module.exports = {
     loggedDev.dislikes.push(targetDev._id)
 
     await loggedDev.save()
-
+    console.log(`User ${targetDev.name} received like from ${loggedDev.name}`)
     return res.json({ ok: true })
   }
 }
