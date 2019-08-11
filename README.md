@@ -59,7 +59,7 @@ yarn start
 
 ## TODO:
 
-[  ] Criar autenticação para os usuários
-[  ] Implementar a possibilidade de ambientes desenvolvimento/homologação/produção
-[  ] Isolar backend e frontend em containers
+- [ ] Criar autenticação para os usuários
+- [ ] Implementar a possibilidade de ambientes desenvolvimento/homologação/produção
+- [ ] Isolar backend e frontend em containers
 
