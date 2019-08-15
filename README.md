@@ -25,9 +25,6 @@ as notificações em tempo real foram criadas utilizando o cliente do socket.io
 
 ## Como testar a aplicação
 
-Para testar o aplicativo mobile é preciso configurar o ambiente, um guia completo para
-realizar a configuração [pode ser encontrado no site da Rocketseat.](https://docs.rocketseat.dev/ambiente-react-native/introducao)
-
 Somente foi testando no Emulador Android (Release 27) e em dispositivo android com MiUI 10.
 
 Os testes podem ser feitos conforme:
